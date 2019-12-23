@@ -7,8 +7,8 @@
 | شماره | سوالات |
 | --- | --------- |
 |   | <div dir="rtl" align="right">**هسته React**</div> |
-|1  | [<div dir="rtl" align="right">React چیست؟</div>](#React-چیست؟) |
-|2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
+|1  | [<div dir="rtl" align="right">React چیست؟</div>](#React-چیست) |
+|2  | [<div dir="rtl" align="right">ویژگی های اصلی React چیست؟</div>](#ویژگی-های-اصلی-React-چیست) |
 |3  | [What is JSX?](#what-is-jsx) |
 |4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
 |5  | [How to create components in React?](#how-to-create-components-in-react) |
@@ -350,17 +350,19 @@
 
    **[⬆ بازگشت به بالا](#سرفصل-مطالب)**
     
-2. ### What are the major features of React?
+2. ### <div dir="rtl" align="right">ویژگی های اصلی React چیست؟</div>
 
-    The major features of React are:
+    <div dir="rtl" align="right">
+    ویژگی های اصلی React:
 
-    * It uses **VirtualDOM** instead RealDOM considering that RealDOM manipulations are expensive.
-    * Supports **server-side rendering**.
-    * Follows **Unidirectional** data flow or data binding.
-    * Uses **reusable/composable** UI components to develop the view.
+    * React از **VirtualDOM** به جای RealDOM استفاده می کنه.
+    * پشتیبانی از **server-side rendering** یا **رندر سمت سرور**.
+    * پشتیبانی از **Unidirectional** یا **جریان داده یک طرفه**.
+    * استفاده از **reusable/composable** در کامپوننت های UI به منظور توسعه رابط کاربری.
+    </div>
 
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ بازگشت به بالا](#سرفصل-مطالب)**
     
 3. ### What is JSX?
 
