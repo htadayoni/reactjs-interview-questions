@@ -7,7 +7,7 @@
 | شماره | سوالات |
 | --- | --------- |
 |   | <div dir="rtl" align="right">**هسته React**</div> |
-|1  | [<div dir="rtl" align="right">React چیست؟</div>](#what-is-react) |
+|1  | [<div dir="rtl" align="right">React چیست؟</div>](#React-چیست؟) |
 |2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
 |3  | [What is JSX?](#what-is-jsx) |
 |4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
@@ -343,7 +343,7 @@
 
 
     
-### <div dir="rtl" align="right">1. React چیست؟</div>
+1. ### <div dir="rtl" align="right">React چیست؟</div>
 
     <div dir="rtl" align="right">React در واقع یک library متن باز فرانت اند بر پایه جاوااسکریپت هستش که به منظور ایجاد رابط کاربری برای اپلیکیشن های تک صفحه ای ایجاد شده. از React به منظور ایجاد اپلیکیشن های تحت وب و موبایل استفاده میشه. React توسط Jordan Walke ساخته شد که برای فیس بوک کار میکرد. اولین بار از React در سال 2011 در فیس بوک و سال 2012 در اینستاگرام استفاده شد.</div>
 
