@@ -1,13 +1,13 @@
-# React Interview Questions & Answers
+# پرسش و پاسخ های استخدامی React
 
-> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
+> اگه این مطلب رو دوست داشتید، برای همایت از ما رو :star: کلیک کنید. همچنین من رو توی linkdin دنبال کنید [@hTadayoni](https://www.linkedin.com/in/htadayoni/).
 
-### Table of Contents
+### سرفصل مطالب
 
-| No. | Questions |
+| شماره. | سوالات |
 | --- | --------- |
-|   | **Core React** |
-|1  | [What is React?](#what-is-react) |
+|   | **هسته React** |
+|1  | [React چیست؟](#what-is-react) |
 |2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
 |3  | [What is JSX?](#what-is-jsx) |
 |4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
@@ -343,12 +343,12 @@
 
 
     
-1. ### What is React?
+1. ### React چیست؟
 
-    React is an **open-source frontend JavaScript library** which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+    React در واقع یک library متن باز فرانت اند بر پایه جاوااسکریپت هستش که به منظور ایجاد رابط کاربری برای اپلیکیشن های تک صفحه ای ایجاد شده. از React به منظور ایجاد اپلیکیشن های تحت وب و موبایل استفاده میشه. React توسط Jordan Walke ساخته شد که برای فیس بوک کار میکرد. اولین بار از React در سال 2011 در فیس بوک و سال 2012 در اینستاگرام استفاده شد.
 
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ بازگشت به بالا](#table-of-contents)**
     
 2. ### What are the major features of React?
 
