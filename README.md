@@ -465,22 +465,22 @@
     
 6. ### <div dir="rtl" align="right">چه زمانی از Class Component یا Function Component استفاده کنیم؟</div>
 
-    <div dir="rtl" align="right">در صورتی که در کامپوننت خود نیاز به *متدهای state یا lifecycle* داشتید از Class Component استفاده کنید در غیر این صورت از Function Component استفاده کنید.
-    *با این حال از React نسخه 16.8 به بعد با اضافه شدن Hookها، شما میتونید از state، متدهای lifecycle و باقی ویژگی هایی که فقط در Class Componentها در دسترس بود را در Function Componentها نیز استفاده کنید.*</div>
+    <div dir="rtl" align="right">در صورتی که در کامپوننت خود نیاز به <strong>متدهای state یا lifecycle</strong> داشتید از Class Component استفاده کنید در غیر این صورت از Function Component استفاده کنید.
+    <strong>با این حال از React نسخه 16.8 به بعد با اضافه شدن Hookها، شما میتونید از state، متدهای lifecycle و باقی ویژگی هایی که فقط در Class Componentها در دسترس بود را در Function Componentها نیز استفاده کنید.</strong></div>
 
 
    **[⬆ بازگشت به بالا](#سرفصل-مطالب)**
     
 7. ### <div dir="rtl" align="right">Pure Componentها چه هستند؟</div>
 
-    <div dir="rtl" align="right">*`React.PureComponent`* دقیقا مشابه *`React.Component`* می باشد بجز وجود متد `shouldComponentUpdate()` که برای استفاده شما در دسترس می باشد. زمانی که یک props یا state تغییر می کند، *PureComponent* یک حالت مقایسه ای برای props و state را ایجاد می کند. در طرف مقابل *Component* مقادیر فعلی مربوط به props و state را با مقادیر جدید مقایسه نمی کند و در دسترس ما قرار نمی دهد. بنابراین با تغییرا مقادیر مربوط به آنها، بطور خودکار `shouldComponentUpdate` فراخوانی می شود.</div>
+    <div dir="rtl" align="right"><strong>`React.PureComponent`</strong> دقیقا مشابه <strong>`React.Component`</strong> می باشد بجز وجود متد `shouldComponentUpdate()` که برای استفاده شما در دسترس می باشد. زمانی که یک props یا state تغییر می کند، <strong>PureComponent</strong> یک حالت مقایسه ای برای props و state را ایجاد می کند. در طرف مقابل <strong>Component</strong> مقادیر فعلی مربوط به props و state را با مقادیر جدید مقایسه نمی کند و در دسترس ما قرار نمی دهد. بنابراین با تغییرا مقادیر مربوط به آنها، بطور خودکار `shouldComponentUpdate` فراخوانی می شود.</div>
 
 
    **[⬆ بازگشت به بالا](#سرفصل-مطالب)**
     
 8. ### <div dir="rtl" align="right">مفهوم state در React چیست؟</div>
 
-    <div dir="rtl" align="right">*State* در واقع یک object درون component می باشد که یک سری اطلاعات را درون خود نگهداری می کند که در آن component مورد استفاده قرار می گیرد و ممکن است در طول عمر آن component تغییر کند. در هنگاه استفاده از stateها به این نکته توجه کنید که همیشه تا حد امکان سعی کنید تعداد و پیچیدکی آنها را کم کنید و از حداقل stateهای مفید در هر component استفاده کنید. بیایید با هم یک component با state برابر message ایجاد کنید:</div>
+    <div dir="rtl" align="right"><strong>State</strong> در واقع یک object درون component می باشد که یک سری اطلاعات را درون خود نگهداری می کند که در آن component مورد استفاده قرار می گیرد و ممکن است در طول عمر آن component تغییر کند. در هنگاه استفاده از stateها به این نکته توجه کنید که همیشه تا حد امکان سعی کنید تعداد و پیچیدکی آنها را کم کنید و از حداقل stateهای مفید در هر component استفاده کنید. بیایید با هم یک component با state برابر message ایجاد کنید:</div>
 
 
     ```jsx harmony
@@ -512,7 +512,7 @@
     
 9. ### <div dir="rtl" align="right">مفهوم props در React چیست؟</div>
 
-    <div dir="rtl" align="right">در واقع *Props* ورودی مربوط به Component می باشد. اونها یک سری مقادیر یکتا و یا objectهایی می باشند که شامل مجموعه ای از key و valueها است که به داخل componentها ارسال می شوند و با استفاده از نامی که برای آنها تعریف شده است در دسترس می باشند. بطور کلی مجموعه اطلاعاتی می باشد که توسط والد برای فرزندان ارسال می شود تا از آنها استفاده کنند.
+    <div dir="rtl" align="right">در واقع <strong>Props</strong> ورودی مربوط به Component می باشد. اونها یک سری مقادیر یکتا و یا objectهایی می باشند که شامل مجموعه ای از key و valueها است که به داخل componentها ارسال می شوند و با استفاده از نامی که برای آنها تعریف شده است در دسترس می باشند. بطور کلی مجموعه اطلاعاتی می باشد که توسط والد برای فرزندان ارسال می شود تا از آنها استفاده کنند.
 
     هدف اصلی propsها در react، ارائه امکانات زیر است:
 
@@ -520,8 +520,8 @@
     2. Trigger کردن تغییرات Stateها.
     3. دریافت و استفاده از اطلاعات موجود در props با استفاده از `this.props.reactProp` در داخل متد `render()`.
 
-    برای نمونه توی مثال زیر یک props با نام `reactProp` به یک component ارسال کردیم:
-    </div>
+    برای نمونه توی مثال زیر یک props با نام `reactProp` به یک component ارسال کردیم:</div>
+    
     ```jsx harmony
     <Element reactProp={'1'} />
     ```
